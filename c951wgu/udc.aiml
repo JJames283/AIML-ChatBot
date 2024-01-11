@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hi</pattern>
+    <template>Hi there Night Owl! I will be your WGU Career Advisor chatbot.
+    Based on your answers during the Career Advisement quiz, I will offer career
+    recommmendations that you can explore further on your own or with your Career
+    Advisor. Are you ready to get started?
+    
+    <reply>
+        <text>Yes!</text>
+        <postback>GetStarted</postback>
+    </reply>
+    
+    <reply>
+        <text>Not yet.</text>
+        <postback>Wait</postback>
+    </reply>
+    
+    
+    </template>
+  </category>
+
+<category>
+    <pattern>Wait</pattern>
+    <template>I'll be here whenever you are! Just say "Hi" when you are ready
+    to start.</template>
+</category>
+
+<category>
+    <pattern>GetStarted</pattern>
+    <template>Great! Let's start with an easy one. On a scale of 1 to 5, with 1
+    being the lowest and 5 being the highest, how would you rate your enjoyment
+    of video games?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>One</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>Two</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>Three</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>Four</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>Five</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>One</pattern>
+    <template>Hmm...video games doesn't seem like a great fit, so let's try another
+    question. On a scale of 1 to 5, how would you rate your interest in Artificial
+    Intelligence (AI)?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>AIOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>AITwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>AIThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>AIFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>AIFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+
+<category>
+    <pattern>Two</pattern>
+    <template>Hmm...video games doesn't seem like a great fit, so let's try another
+    question. On a scale of 1 to 5, how would you rate your interest in Artificial
+    Intelligence (AI)?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>AIOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>AITwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>AIThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>AIFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>AIFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+
+<category>
+    <pattern>Three</pattern>
+    <template>Hmm...I bet we can find a stronger match. Let's try another
+    question. On a scale of 1 to 5, how would you rate your interest in Artificial
+    Intelligence (AI)?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>AIOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>AITwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>AIThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>AIFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>AIFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+
+<category>
+    <pattern>Four</pattern>
+    <template>I see you enjoy video games a lot! A video game developer career might
+    be for you! A video game developer specializes in the processes and skills needed
+    to create video games.
+    <delay></delay>
+    Do you wish to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>VGYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>VGNo</postback>
+    </reply>
+    </template>
+  </category>
+
+<category>
+    <pattern>Five</pattern>
+    <template>I see you enjoy video games a lot! A video game developer career might
+    be for you! A video game developer specializes in the processes and skills needed
+    to create video games.
+    <delay></delay>
+    Do you wish to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>VGYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>VGNo</postback>
+    </reply>
+    </template>
+  </category>
+
+<category>
+    <pattern>VGYes</pattern>
+    <template>On a scale of 1 to 5, how would you rate your interest in Artificial
+    Intelligence (AI)?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>AIOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>AITwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>AIThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>AIFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>AIFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>VGNo</pattern>
+    <template>Thank you for using the Career Advisement quiz! If you have any questions
+    about any of the career recommendations, or if you want to review more options,
+    please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    
+    </template>
+</category>
+
+
+<category>
+    <pattern>AIOne</pattern>
+    <template>I can see you are not very interested in AI, so let's try another
+    question. On a scale of 1 to 5, how would you rate your leadership and managerial skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>LeaderOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>LeaderTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>LeaderThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>LeaderFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>LeaderFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>AITwo</pattern>
+    <template>I can see you are not very interested in AI, so let's try another
+    question. On a scale of 1 to 5, how would you rate your leadership and managerial skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>LeaderOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>LeaderTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>LeaderThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>LeaderFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>LeaderFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>AIThree</pattern>
+    <template>I think we can find a stronger match.  On a scale of 1 to 5,
+    how would you rate your leadership and managerial skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>LeaderOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>LeaderTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>LeaderThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>LeaderFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>LeaderFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+
+<category>
+    <pattern>LeaderOne</pattern>
+    <template>That's okay, not everyone wants to be a leader or a manager! Let's
+    try another question. On a scale of 1 to 5, how do you rate your computer 
+    programming knowledge and skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>SoftwareOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>SoftwareTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>SoftwareThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>SoftwareFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>SoftwareFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>LeaderTwo</pattern>
+    <template>That's okay, not everyone wants to be a leader or a manager! Let's
+    try another question. On a scale of 1 to 5, how do you rate your computer 
+    programming knowledge and skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>SoftwareOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>SoftwareTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>SoftwareThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>SoftwareFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>SoftwareFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>LeaderThree</pattern>
+    <template>Let's see if we can find a stronger match. On a scale of 1 to 5,
+    how do you rate your computer programming knowledge and skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>SoftwareOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>SoftwareTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>SoftwareThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>SoftwareFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>SoftwareFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>LeaderFour</pattern>
+    <template>I see you have strong leadership and managerial skills. Have you considered
+    a career as an IT Project Manager? An IT project manager helps to plan and implement
+    various IT processes and projects.
+    <delay></delay>
+    Do you want to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>ITYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>ITNo</postback>
+    </reply>
+    </template>
+  </category>
+
+<category>
+    <pattern>LeaderFive</pattern>
+    <template>I see you have strong leadership and managerial skills. Have you considered
+    a career as an IT Project Manager? An IT project manager helps to plan and implement
+    various IT processes and projects.
+    <delay></delay>
+    Do you want to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>ITYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>ITNo</postback>
+    </reply>
+    </template>
+  </category>
+
+<category>
+    <pattern>ITYes</pattern>
+    <template>On a scale of 1 to 5, how do you rate your computer programming 
+    knowledge and skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>SoftwareOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>SoftwareTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>SoftwareThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>SoftwareFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>SoftwareFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>ITNo</pattern>
+    <template>Thank you for using the Career Advisement quiz! If you have any questions
+    about any of the career recommendations, or if you want to review more options,
+    please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    
+    </template>
+</category>
+
+
+
+
+<category>
+    <pattern>AIFour</pattern>
+    <template>I see you have a strong interest in artificial intelligence (AI)! 
+    You should consider a career as an AI Engineer. An AI Engineer helps to develop
+    the tools, systems, and processes that allow AI to be developed, programmed,
+    and trained.
+    <delay></delay>
+    Do you want to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>AIYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>AINo</postback>
+    </reply>
+    </template>
+  </category>
+
+<category>
+    <pattern>AIFive</pattern>
+    <template>I see you have a strong interest in artificial intelligence (AI)! 
+    You should consider a career as an AI Engineer. An AI Engineer helps to develop
+    the tools, systems, and processes that allow AI to be developed, programmed,
+    and trained.
+    <delay></delay>
+    Do you want to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>AIYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>AINo</postback>
+    </reply>
+    </template>
+  </category>
+
+
+<category>
+    <pattern>AIYes</pattern>
+    <template>On a scale of 1 to 5, how would you rate your leadership and managerial skills?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>LeaderOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>LeaderTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>LeaderThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>LeaderFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>LeaderFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>AINo</pattern>
+    <template>Thank you for using the Career Advisement quiz. If you have any questions
+    about any of the career recommendations, or if you want to review more options,
+    please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>SoftwareOne</pattern>
+    <template>I see you your computer programming skills and knowledge are still
+    growing, so let's try one more question. On a scale of 1 to 5, how would you
+    rate your empathetic  skills, speicfically regarding being able to view a
+    future product as an end user would?
+  <reply>
+        <text>1(lowest)</text>
+        <postback>EmpathyOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>EmpathyTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>EmpathyThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>EmpathyFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>EmpathyFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>SoftwareTwo</pattern>
+    <template>I see you your computer programming skills and knowledge are still
+    growing, so let's try one more question. On a scale of 1 to 5, how would you
+    rate your empathetic  skills, speicfically regarding being able to view a
+    future product as an end user would?
+  <reply>
+        <text>1(lowest)</text>
+        <postback>EmpathyOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>EmpathyTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>EmpathyThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>EmpathyFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>EmpathyFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>SoftwareThree</pattern>
+    <template>I see you your computer programming skills and knowledge are still
+    growing, so let's try one more question. On a scale of 1 to 5, how would you
+    rate your empathetic  skills, speicfically regarding being able to view a
+    future product as an end user would?
+  <reply>
+        <text>1(lowest)</text>
+        <postback>EmpathyOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>EmpathyTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>EmpathyThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>EmpathyFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>EmpathyFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>SoftwareFour</pattern>
+    <template>I see you have strong computer programming knowledge and skills! You
+    could excel in a career as a Software Developer. Software developers use their
+    knowledge of computer programming to design and build software.
+    <delay></delay>
+    Do you want to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>SoftwareYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>SoftwareNo</postback>
+    </reply>
+    </template>
+  </category>
+
+<category>
+    <pattern>SoftwareFive</pattern>
+    <template>I see you have strong computer programming knowledge and skills! You
+    could excel in a career as a Software Developer. Software developers use their
+    knowledge of computer programming to design and build software.
+    <delay></delay>
+    Do you want to continue the Career Advisement quiz?
+    <reply>
+        <text>Yes!</text>
+        <postback>SoftwareYes</postback>
+    </reply>
+    
+    <reply>
+        <text>No.</text>
+        <postback>SoftwareNo</postback>
+    </reply>
+    </template>
+  </category>
+
+<category>
+    <pattern>SoftwareYes</pattern>
+    <template>On a scale of 1 to 5, how would you rate your empathetic skills,
+    speicfically regarding being able to view a future product as an end user would?
+
+    <reply>
+        <text>1(lowest)</text>
+        <postback>EmpathyOne</postback>
+    </reply>
+    
+    <reply>
+        <text>2</text>
+        <postback>EmpathyTwo</postback>
+    </reply>
+    
+        <reply>
+        <text>3</text>
+        <postback>EmpathyThree</postback>
+    </reply>
+    
+        <reply>
+        <text>4</text>
+        <postback>EmpathyFour</postback>
+    </reply>
+    
+        <reply>
+        <text>5(highest)</text>
+        <postback>EmpathyFive</postback>
+    </reply>
+
+    </template>
+</category>
+
+<category>
+    <pattern>SoftwareNo</pattern>
+    <template>Thank you for using the Career Advisement quiz. If you have any questions
+    about any of the career recommendations, or if you want to review more options,
+    please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    
+    </template>
+</category>
+
+
+<category>
+    <pattern>EmpathyOne</pattern>
+    <template>I see these skils are still growing. You have reached the end of the Career Advisement quiz.
+    If you have any questions about any of the career recommendations, or if you want to review more options,
+    please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>EmpathyTwo</pattern>
+    <template>I see these skils are still growing. You have reached the end of the Career Advisement quiz.
+    If you have any questions about any of the career recommendations, or if you want to review more options,
+    please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>EmpathyThree</pattern>
+    <template>I see these skils are still growing. You have reached the end of the Career Advisement quiz.
+    If you have any questions about any of the career recommendations, or if you want to review more options,
+    please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>EmpathyFour</pattern>
+    <template>I see you have a high level of empathetic skills, specifically regarding
+    being able to view a future product as an end user would. You should look into a
+    career as a User Experience (UX) Designer. A UX designer designs the experience an
+    end-user will have when interacting with a company’s services or products.
+    <delay></delay>You have reached the end of the Career Advisement quiz. If you
+    have any questions about any of the career recommendations, or if you want to
+    review more options, please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>EmpathyFive</pattern>
+    <template>I see you have a high level of empathetic skills, specifically regarding
+    being able to view a future product as an end user would. You should look into a
+    career as a User Experience (UX) Designer. A UX designer designs the experience an
+    end-user will have when interacting with a company’s services or products.
+    <delay></delay>You have reached the end of the Career Advisement quiz. If you
+    have any questions about any of the career recommendations, or if you want to
+    review more options, please schedule an appointment with your Career Advisor.
+    <button>
+        <text>Schedule An Appointment</text>
+        <url>https://www.wgu.edu/career-services/appointment-request.html</url>
+    </button>
+    
+    </template>
+</category>
+
+  
+</aiml>
+
